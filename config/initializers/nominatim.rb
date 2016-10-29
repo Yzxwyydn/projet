@@ -1,3 +1,3 @@
 Nominatim.configure do |config|
-  config.email = 'sebastien.gadot@utbm.fr'
+  config.email = 'wsyyzx0@gmail.com'
 end
