@@ -2,17 +2,12 @@ source 'https://rubygems.org'
 ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', ' 4.2.7.1'
+gem 'rails', '4.2.7.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 3.2'
 gem 'bootstrap-sass', '~> 3.3.6'
-=======
-gem 'rails', '4.1.6'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.3'
->>>>>>> 0f323978276af20bcd3de1cd076734b40f93a6a6
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -30,21 +25,20 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 group :development, :test do
-  # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
-  gem 'spring'
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
-  gem 'vcr', '~> 3.0', '>= 3.0.3'
+ # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+ gem 'spring'
+ # Use sqlite3 as the database for Active Record
+ gem 'sqlite3'
+ gem 'vcr', '~> 3.0', '>= 3.0.3'
 end
 
 # geocoding 
 gem 'nominatim', '~> 0.0.5'
 
+#meteo
+gem 'forecast_io', '~> 2.0', '>= 2.0.1'
+
 gem 'pg', '~> 0.18.4', group: :production
-
-gem 'forecast_io', '~> 2.0'
-
-gem 'typhoeus', '~> 1.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
