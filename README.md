@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ![travis](https://travis-ci.org/Yzxwyydn/projet.svg?branch=master)
 ![codeclimate](https://codeclimate.com/github/Yzxwyydn/projet/badges/gpa.svg)
 
