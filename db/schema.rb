@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20161011095908) do
 
-  create_table "cities", force: true do |t|
+  create_table "cities", force: :cascade do |t|
     t.string   "name"
     t.float    "lat"
     t.float    "lon"
@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 20161011095908) do
     t.datetime "updated_at"
   end
 
-  create_table "students", force: true do |t|
+  create_table "students", force: :cascade do |t|
     t.string   "name"
     t.string   "surname"
     t.date     "birthday"
